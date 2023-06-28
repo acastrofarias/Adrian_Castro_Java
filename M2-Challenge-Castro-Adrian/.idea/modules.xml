@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chatterbook/chatterbook.iml" filepath="$PROJECT_DIR$/chatterbook/chatterbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatterbook.iml" filepath="$PROJECT_DIR$/chatterbook.iml" />
     </modules>
   </component>
 </project>
