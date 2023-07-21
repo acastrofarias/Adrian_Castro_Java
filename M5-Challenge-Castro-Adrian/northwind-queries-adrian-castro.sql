@@ -33,7 +33,6 @@ FROM customers
 WHERE postal_code 
 LIKE '%0';
 
-
 -- List the first name, last name, and email for all customers with a ".org" email address.
 SELECT first_name, last_name, email
 FROM customers
