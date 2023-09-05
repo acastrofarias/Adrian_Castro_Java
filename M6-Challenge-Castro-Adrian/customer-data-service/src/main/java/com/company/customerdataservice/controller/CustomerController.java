@@ -14,6 +14,7 @@ public class CustomerController {
     @Autowired
     CustomerRepository repo;
 
+    //get all customers
     @GetMapping("/customers")
     public List<Customer> getCustomers() {
         return repo.findAll();

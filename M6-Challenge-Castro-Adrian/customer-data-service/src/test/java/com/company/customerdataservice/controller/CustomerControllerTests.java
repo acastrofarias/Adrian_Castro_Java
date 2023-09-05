@@ -62,6 +62,13 @@ public class CustomerControllerTests {
     }
 
     @Test
+    void getCustomerByState() throws Exception {
+        mockMvc.perform(get("/customers/state/FL"))
+                .andDo(print())
+                .andExpect(status().isOk());
+    }
+
+    @Test
     void getAllCustomers() throws Exception {
         mockMvc.perform(get("/customers"))
                 .andDo(print())
